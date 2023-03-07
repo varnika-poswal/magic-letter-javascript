@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.completeletter{
+    background: linear-gradient(#000,#fff,#000);
+    height:100%;
+    overflow:hidden;
+
+}
+.completeletter h1{
+    font-size:50px;
+    color:#fff;
+    text-align: center;
+    font-family:cursive;
+    margin-bottom:10px;
+}
+
+.container{
+    background: linear-gradient(rgba(255,166,0,0.965),rgba(0,0,0,0.979),rgba(255,166,0,0.965),rgba(0,0,0,0.979));
+    width:90%;
+    margin:auto;
+    height:90vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-left{
+flex-basis: 50%;
+text-align: center;
+}
+.img-left img{
+width:400px;
+height:400px;
+border-radius:50%;
+object-fit: cover;
+box-shadow: 4px 4px 10px #000;
+}
+
+.img-left:hover img{
+    box-shadow: 2px 2px 65px 25px #fff;
+}
+
+.letter-box{
+    flex-basis:50%;
+    text-align: center;
+    margin-right:30px;
+    background: url('file:///C:/Users/MI%20Computer/Desktop/plain-cotton-candy-solid-color-260nw-1937212369.webp')no-repeat;
+    background-position: center;
+    box-shadow:1px 1px 35px 15px #fff;
+}
+#texthead{
+    font-size:40px;
+    color:#fff;
+    text-shadow:-2px 0 #000,0 2px #000,2px 0 #000,0 -2px #000;
+    margin-bottom:20px;
+    font-family: cursive;
+}
+#ful-letter{
+    font-family:cursive;
+    font-size:24px;
+    text-align: center;
+    max-width: 600px;
+    text-shadow:-1px 0 #fff,0 1px #fff,1px 0 #fff,0 -1px #fff;
+    color:#000;
+    padding:0 45px;
+}
